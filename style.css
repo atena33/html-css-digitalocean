@@ -1,4 +1,38 @@
-[class*="col-"] {
+/* [class*="col-"] {
   height: 100px;
   border: solid 2px;
+} */
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;;
+}
+
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* Qui iniziano le regole dell'header */
+header {
+  margin-top: 30px;
+
+
+}
+#logo {
+  max-width: 200px;
+  height: auto;
+
+}
+
+.list li {
+  display: inline-block;
+  padding: 10px 15px 0 0;
+}
+
+.list li a {
+  color: #0c2454;
 }
