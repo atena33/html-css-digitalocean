@@ -256,3 +256,95 @@ input, .uno ul li a {
 .foto {
   padding-top: 50px;
 }
+.punti {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.punti ul li {
+  border: solid 2px;
+  border-radius: 100%;
+  border-color: #0069ff;
+  padding: 3px;
+  display: inline-block;
+}
+
+#celeste {
+  background-color: #0069ff;
+}
+
+.servers p {
+  color:#0c2454;
+  font-size: 50px;
+}
+@media screen and (max-width:970px){
+
+
+  .foto img {
+    max-width: 50%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 971px) and (max-width:1170px) {
+  .foto{
+    display:inline-block;
+  }
+
+  .foto img {
+    max-width: 70%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width:1171px) {
+  .servers p {
+    display: none;
+  }
+}
+
+/* Qui inizia la quarta sezione */
+
+#tabelle {
+  text-align: center;
+  color: white;
+  background: #031b4e url(https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg);
+  padding-bottom: 100px;
+}
+
+#tabelle h2 {
+
+  padding-top: 50px;
+}
+
+.left {
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+table {
+  border-bottom: solid 1px gray;
+}
+
+#mezzo {
+  padding-left: 80px;
+  padding-right: 150px;
+  opacity: 0.8;
+}
+td {
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+.right {
+  padding-top: 50px;
+}
+
+table a {
+  color:#0069ff;
+}
+
+@media screen and (max-width:1171px) {
+  .right {
+    padding-left: 100px;
+  }
+}
