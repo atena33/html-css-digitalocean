@@ -9,6 +9,10 @@
   box-sizing: border-box;;
 }
 
+body {
+  400 16px/1.5 Sailec-Regular,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
 ul li {
   list-style: none;
 }
@@ -19,14 +23,8 @@ a {
 /* Qui iniziano le regole dell'header */
 header {
   margin-top: 30px;
-
-
 }
-#logo {
-  max-width: 200px;
-  height: auto;
 
-}
 
 .list li {
   display: inline-block;
@@ -35,4 +33,226 @@ header {
 
 .list li a {
   color: #0c2454;
+}
+
+/* Qui inizia il jumbotron */
+
+#jumbotron {
+  background-image: url(imgx/jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+
+  padding-bottom: 100px;
+  padding-left: 100px;
+}
+
+.titolo {
+  max-width: 500px;
+  padding-top: 200px;
+
+}
+
+.titolo h1 {
+  font-size: 50px;
+
+}
+
+.titolo p {
+  font-size: 24px;
+  line-height: 35px;
+  opacity: 0.8;
+}
+
+#titolo2, form {
+  text-align: center;
+}
+
+#titolo2 {
+  color:#031c4e;
+  padding-bottom: 30px;
+}
+
+.form1 {
+  background-color: white;
+  max-width: 500px;
+  margin-top: 150px;
+  border-radius: 3%;
+}
+
+.uno ul li {
+  padding-bottom: 20px;
+}
+
+input, .uno ul li a {
+  width: 300px;
+  height: 40px;
+  border-radius: 5%;
+}
+
+#account {
+  background-color: #579aff;
+  color: white;
+  padding: 15px 60px;
+  border-radius: 5%;
+  font-size: 20px;
+}
+
+
+.scritta, .riga {
+  color: gray;
+  display: inline-block;
+  padding-bottom: 30px;
+}
+.riga {
+  border-bottom: solid 2px lightgray;
+  width: 100px;
+  position: relative;
+  top: -5px;
+}
+
+.social ul li {
+  display: inline-block;
+  color:#4c93ff;
+}
+
+.social ul li a {
+  color:#0c2454;
+  border: solid 2px #F0F8FF;
+  padding: 10px 30px;
+  background-color: #F0FFFF;
+}
+
+.fab {
+  padding-right: 30px;
+}
+
+.terms {
+  color: gray;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+ /* Qui inizia la terza parte dell'header */
+ #terza {
+   background-color: #f3f5f9;
+   text-align: center;
+ }
+
+ #terza h6 {
+   padding-top: 50px;
+   padding-bottom: 30px;
+   font-size: 15px;
+   color: gray;
+   font-weight: bold;
+ }
+
+ .loghi {
+  height: 80px;
+   width: 120px;
+   margin-left: 50px;
+}
+
+.solutions {
+
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.solutions a {
+  color: #0069ff;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* Qui iniziano le regole della prima sezione del main */
+
+.quarta {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.quarta h2 {
+  color: #0c2454;
+}
+
+#sottotitolo {
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #0c2454;
+}
+
+#deploy {
+  text-align: left;
+  margin-left: 200px;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+
+
+#deploy li {
+  line-height: 50px;
+  border-left: solid 2px gray;
+  padding-left: 20px;
+  font-size: 16px;
+
+}
+
+#deploy li a {
+  color: gray;
+}
+
+.prima {
+  margin-top: 100px;
+}
+.blocco {
+  text-align: left;
+  padding-right: 100px;
+
+}
+
+.blocco h6 {
+  color:#0c2454;
+}
+
+.blocco p {
+  color: gray;
+  max-width: 250px;
+}
+
+.seconda {
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width:970px) {
+  #deploy {
+    margin-left: 0;
+  }
+  .blocco p {
+    width: 100vw;
+  }
+  .prima {
+    margin-top: 0;
+  }
+}
+/* Qui inizia la seconda sezione */
+
+.gray {
+  background-color: #f3f5f9;
+}
+
+.fas {
+  font-size: 50px;
+  color: #0c2454;
+}
+
+.fa-chevron-left {
+  padding-right: 30px;
+}
+
+.fa-chevron-right {
+  padding-left: 30px;
+}
+
+.foto {
+  padding-top: 50px;
 }
